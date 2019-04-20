@@ -1,3 +1,7 @@
+* {
+    font-family: monospace;
+}
+
 body {
     color: #839496;
     background-color: #002b36;
@@ -7,12 +11,6 @@ body {
 
 h3 {
     color: pink;
-}
-
-.sub-bullet {
-    font-weight: bold;
-    color: #00ffff;
-    display: inline-block;
 }
 
 a {
@@ -32,21 +30,23 @@ a:hover {
 ul {
     list-style-type: square;
     margin: 0;
-    /* padding: 0; */
     overflow: hidden;
     width: 625px;
     background-color: inherit;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 li {
     margin: 0 0 10px 0;
-    float: left;
 }
 
-* {
-    font-family: monospace;
+.document-title {
+    color: #39ff14;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.sub-bullet {
+    font-weight: bold;
+    color: #00ffff;
+    display: inline-block;
 }
