@@ -57,6 +57,12 @@ li {
     display: inline-block;
 }
 
+.argument-name {
+    font-weight: bold;
+    color: yellow;
+    padding: 10px 0 10px 0;
+}
+
 /* The navigation bar */
 .navbar {
     overflow: hidden;
