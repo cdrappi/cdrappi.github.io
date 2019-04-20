@@ -6,11 +6,16 @@ body {
     color: #b3b3b3;
     background-color: #36454f;
     /* height: 100%; */
-    margin: 0;
+    margin: 0; 
+    /* padding-top:80px; */
 }
 
 h3 {
     color: #00ffff;
+}
+
+h4 {
+    color: #ffff00;
 }
 
 a {
@@ -43,7 +48,7 @@ li {
     color: #39ff14;
     font-size: 110%;
     font-weight: bold;
-    padding: 0px 0 0 20px;
+    padding: 10px 0 10px 20px;
 }
 
 .sub-bullet {
@@ -55,8 +60,8 @@ li {
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
-    position: fixed; Set the navbar to fixed position
+    background-color: #333333;
+    position: fixed; /*Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
   }
@@ -67,8 +72,11 @@ li {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
+    border-style: none inset none none;
+    border-width: 1px;
+    border-color: #222222;
   }
   
   /* Change background on mouse-over */
@@ -76,8 +84,10 @@ li {
     background: #ddd;
     color: black;
   }
-  
-  /* Main content */
-  .main {
-    margin-top: 100px; /* Add a top margin to avoid content overlay */
+
+  .section {
+    padding: 90px 0 30px 20px;
+  }
+  .extra-space {
+      padding: 600px 0 0 0;
   }
