@@ -1,9 +1,10 @@
 * {
     font-family: monospace;
+    font-size: 14px;
 }
 
 body {
-    color: #b3b3b3;
+    color: #C0C0C0;
     background-color: #36454f;
     /* height: 100%; */
     margin: 0; 
