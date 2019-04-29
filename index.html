@@ -6,6 +6,19 @@
     <title>CHRISTIAN DRAPPI</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <meta http-equiv="refresh" content="300" />
+
+    <script>
+        function getAge(birthDate) {
+            const oneYearInMilliseconds = 365.25 * 24 * 60 * 60 * 1000;
+            return Math.floor(
+                (new Date() - birthDate.getTime()) / oneYearInMilliseconds
+            );
+        }
+
+        function writeAgeFromBirthday(birthDate) {
+            document.write(getAge(birthDate));
+        }
+    </script>
 </head>
 
 <body>
@@ -17,6 +30,7 @@
         <li><a href="index.html">HOME</a></li>
         <li><a href="cv.html">CV</a></li>
         <li><a href="https://github.com/cdrappi">GITHUB</a></li>
+        <li><a href="https://heyhowsgame.herokuapp.com">GIN RICKY</a></li>
         <li><a href="books/valla.html">BOOKS</a></li>
     </ul>
 
@@ -27,7 +41,14 @@
         <div style="padding-left:25%;padding-top:6%">
             <span class="org-level-1">ABOUT</span>
             <p>
-                hi, this is my home on the internet. my name is christian drappi and i'm 27 years old.
+                hi, my name is christian drappi and i am
+                <script>
+                    // WOW! egregious that javascript uses 3 for April
+                    // Brandon Eich was under "Make It Look Like Java" management orders:
+                    // https://twitter.com/BrendanEich/status/771006397886533632
+                    writeAgeFromBirthday(new Date(1992, 3, 28));
+                </script>
+                years old. this is my home on the internet
             </p>
         </div>
     </div>
