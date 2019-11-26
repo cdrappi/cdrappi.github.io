@@ -1,14 +1,27 @@
-<!DOCTYPE html>
-<!-- Created by htmlize-1.51 in css mode. -->
-<html>
+<script>
 
-<head>
-    <title>Christian Drappi: Past</title>
-    <link rel="stylesheet" type="text/css" href="css/past.css" />
-    <meta http-equiv="refresh" content="300" />
-</head>
+</script>
 
-<body>
+<style>
+
+h2 {
+    color: pink;
+}
+
+h4 {
+    color: lightgrey;
+}
+
+a {
+    color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+
+
+<div>
     <div>
         <h2>EMPLOYMENT</h2>
         <div>
@@ -93,6 +106,4 @@
             </ul>
         </div>
     </div>
-</body>
-
-</html>
+</div>
